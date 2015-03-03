@@ -2,8 +2,14 @@
 
     class Rectangle
     {
-        public $length;
-        public $width;
+        private $length;
+        private $width;
+
+        function __construct($length, $width)
+        {
+            $this->length = $length;
+            $this->width = $width;
+        }
 
         function isSquare()
         {
@@ -13,6 +19,32 @@
                 return false;
             }
         }
+
+        function getArea()
+        {
+            return $this->length * $this->width;
+        }
+
+        function setLength($new_length)
+        {
+            $this->length = (float) $new_length;
+        }
+
+        function getLength()
+        {
+            return $this->length;
+        }
+
+        function setWidth($new_width)
+        {
+            $this->length = (float) $new_width;
+        }
+
+        function getWidth()
+        {
+            return $this->width;
+        }
+
     }
 
     $my_rectangle = new Rectangle();
