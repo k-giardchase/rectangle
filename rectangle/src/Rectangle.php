@@ -47,13 +47,13 @@
 
     }
 
-    $my_rectangle = new Rectangle();
-    $my_rectangle->length = $_GET["length"];
-    $my_rectangle->width = $_GET["width"];
+    // $my_rectangle = new Rectangle();
+    // $my_rectangle->length = $_GET["length"];
+    // $my_rectangle->width = $_GET["width"];
 
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -63,13 +63,13 @@
         <div class="container">
             <?php
 
-                if ($my_rectangle->isSquare()) {
-                    echo "<h1>Congratulations! You made a square!</h1>";
-                } else {
-                    echo "<h1>Sorry! This isn't a square.</h1>";
-                }
+                // if ($my_rectangle->isSquare()) {
+                //     echo "<h1>Congratulations! You made a square!</h1>";
+                // } else {
+                //     echo "<h1>Sorry! This isn't a square.</h1>";
+                // }
 
             ?>
         </div>
     </body>
-</html>
+</html> -->
